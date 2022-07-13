@@ -1,0 +1,19 @@
+@import "../../styles/extends";
+@import "../../styles/colors";
+
+.header-box {
+  @extend %center-total;
+  width: 100vw;
+  height: 8vh;
+  margin: 0;
+  background-image: linear-gradient(to right, #2b0000, #b40606);
+  font-weight: 600;
+  font-size: x-large;
+  color: white;
+}
+
+.header-title {
+  @extend %center-total;
+  margin-right: 39px;
+  width: 70vw;
+}
