@@ -1,0 +1,30 @@
+@import "../../styles/colors";
+
+h2 {
+  margin-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.data-card {
+  width: 250px;
+  height: 220px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom right, #ec4040, #f59494);
+  color: #fff;
+  box-shadow: $shadow;
+}
+
+span {
+  margin-bottom: 5px;
+}
+
+.data-card_title {
+  font-weight: bold;
+}
