@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given an ActivityCard component When it receives an activity Then it should render a card with the activity 1`] = `
+<li>
+  <div
+    className="data-card"
+  >
+    <span
+      className="data-card_title"
+    />
+    <span />
+    <span />
+    <span />
+    <span />
+    <span />
+    <span />
+  </div>
+</li>
+`;
