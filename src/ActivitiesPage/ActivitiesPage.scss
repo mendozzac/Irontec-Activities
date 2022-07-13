@@ -1,0 +1,33 @@
+@import "../../styles/colors";
+@import "../../styles/extends";
+
+.container {
+  height: 100vh;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  @extend %center-total;
+  flex-direction: column;
+}
+
+.reload-button {
+  margin-top: 50px;
+  height: 40px;
+  width: 100px;
+  color: rgb(255, 240, 240);
+  font-size: large;
+  font-weight: 200;
+  background-color: #2b0000;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: $shadow;
+}
+
+.reload-button:hover {
+  color: #2b0000;
+  background-color: #f59794;
+  font-size: larger;
+  font-weight: 600;
+}
